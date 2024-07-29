@@ -1,0 +1,160 @@
+body{
+  margin:0px
+}
+
+
+h1{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+/* .top-header{
+    background-color: #333333;
+    height: 50px;
+} */
+
+.acer-logo{
+    width: 100px;;
+}
+.header-text{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22;
+  /* margin-left: 20px; */
+}
+@media (min-width:1400px){
+   .main-div{
+    padding-left: 200px;
+    padding-right: 200px;
+   }
+}
+.search-icon{
+    height: 20px;
+}
+.search-button{
+    display: flex;
+    justify-content: end;
+}
+.carousel-caption {
+    top: 50%;
+    /* left: 0%; */
+    transform: translateY(-40%);
+    transform: translateX(-30%);
+    text-align: left;
+    right: auto; /* override right positioning */
+  }
+
+
+  /* .caption-text{
+    /* width: 800px; */
+    /* padding: 200px; */
+  .heading-browse{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+  }
+
+  .browse-slider{
+    height: 185px;
+    width: 100%;
+    /* background-color: lightcoral; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar; 
+  }
+  .slider-item{
+    height: 100%;
+    width: 150px;
+    /* background-color: beige; */
+    margin-right: 10px;
+    flex: 0 0 auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .silder-image{
+    height: 160px;
+  }
+  .slider-text{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .card-body{
+    padding: 0px;
+  }
+  .more-card{
+    text-decoration: underline;
+    text-underline-offset: 0.5em;
+  text-decoration-thickness: 2px;
+  text-decoration-color: rgb(1, 204, 1);
+  }
+  .back-to-top{
+    /* height: 50px; */
+    /* justify-content: center; */
+    background-color: #f8f8f8;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+  font-weight: 500;
+
+  }
+  .footer-back{
+    /* display: flex; */
+    width: 100%;
+    background-color: #f8f8f8;
+    font-size: .91rem;
+  }
+
+  h6{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+  /* font-weight: 900; */
+  font-style: normal;
+  }
+  .footer-col{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+  /* font-weight: 900; */
+  font-style: normal;
+  }
+  .icon-social{
+    height: 2.5rem;
+    /* width: 2rem; */
+  }
+  .privacy{
+    display: inline-block;
+    text-decoration: none;
+    color: #333333;
+    padding: 0rem 1rem 0rem 1rem; 
+    border-right: 2px #e0e0e0 solid;
+  }
+  .cookie{
+    display: inline-block;
+    text-decoration: none;
+    color: #333333;
+    padding: 0rem 1rem 0rem 1rem; 
+    /* border-left: 2px #e0e0e0 solid; */
+  }
+  .world-icon{
+    width:1.3rem;
+  }
+  .nation{
+    text-decoration: none;
+    color: black;
+    font-size: .9rem;
+  }
+  .nounderline {
+    text-decoration: none !important;
+    color: black;
+  }
