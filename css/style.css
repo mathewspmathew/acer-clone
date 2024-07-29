@@ -107,6 +107,8 @@ h1{
     font-family: "Noto Sans", sans-serif;
     font-optical-sizing: auto;
   font-weight: 500;
+  text-decoration: none;
+  color: black;
 
   }
   .footer-back{
